@@ -1,0 +1,27 @@
+
+{
+  "schemaVersion": 1,
+  "id": "fixloader",
+  "version": "1.0.0",
+  "name": "FixLoader",
+  "description": "A lightweight optimization mod that efficiently loads other mods with minimal memory overhead.",
+  "authors": [
+    "ZenBi"
+  ],
+  "contact": {
+    "sources": "https://github.com/FixLoader/FixLoader.git",
+    "issues": "https://github.com/ZenBi/fixloader/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": [
+      "Fix"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20.1"
+  },
+  "icon": "assets/fixloader/icon.png"
+}
